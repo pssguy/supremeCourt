@@ -1,0 +1,68 @@
+---
+title: "US Supreme Court Judges"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+runtime: shiny    
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(timevis)
+library(plotly)
+library(readxl)
+library(dplyr)
+library(stringr)
+
+## initial data had varying date formats which were corrected in excel
+justices <- read_excel("data/justicesdataAdapted.xlsx")
+
+df <- justices %>% 
+  select(name,yrnom,success,birdate,biryear,birthst,race,gender,nomrelig,natorig,agenom,parnom,serve,dateserb,datesere,reasdep,posit) %>% 
+  filter(str_sub(success,1,3)=="yes")
+
+for(i in 1:nrow(df)) {
+  df$surname[i] <- str_split(df$name,",")[[i]][1]
+}
+# add supreme
+
+df <-df %>% 
+  mutate(surname=ifelse(posit=="chief ju",paste0("*",surname),surname))
+
+## account for current serve
+df[df$datesere=="999. JUSTICE STILL ON COURT",]$datesere <- "2016/07/25"
+
+
+
+df$style <- "background: lightblue;"
+df[df$parnom=="republic",]$style <- "background: #f77542;"
+df[df$parnom=="federali",]$style <- "background: white"
+df[df$parnom=="whig",]$style <- "background: lightgreen"
+df[df$parnom=="independ",]$style <- "background: lightgreen"
+
+```
+
+Background {.sidebar data-width=355}
+-------------------------------------
+
+```{r info}
+
+includeMarkdown("info.md")
+
+
+```
+
+
+Row {data-width=650}
+-----------------------------------------------------------------------
+
+
+### Timeline - Zoom and Pan as required. Hover boxes for full name
+
+```{r timeline}
+ df %>% 
+    select(content=surname,start=dateserb,end=datesere,title=name,style=style) %>% 
+    timevis() 
+```
+

@@ -1,2 +1,2 @@
 # supremeCourt
-dashboard od US supreme court appointments
+dashboard of US supreme court appointments
