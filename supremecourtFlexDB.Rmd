@@ -76,18 +76,26 @@ df[df$birthst=="wisconsi",]$stateID <- "WI"
 
 
 
+states <- data.frame(stateID=state.abb)
+
 byState <- df %>% 
   group_by(stateID) %>% 
-  tally()
+  tally() %>% 
+  right_join(states) %>% 
+  mutate(n=ifelse(is.na(n),0,n))
 
 
-l <- list(color = toRGB("white"), width = 2)
+
+ 
+
+
+l <- list(color = toRGB("black"), width = 1)
 # specify some map projection/options
 g <- list(
   scope = 'usa',
   projection = list(type = 'albers usa'),
   showlakes = TRUE,
-  lakecolor = toRGB('white')
+  lakecolor = toRGB('blue')
 )
 
 
@@ -141,7 +149,7 @@ output$timeline <- renderTimevis({
 ```{r map}
 
 plot_ly(byState, z = n, locations = stateID, type = 'choropleth',
-        locationmode = 'USA-states', color = n, colors = 'Purples',
+        locationmode = 'USA-states', color = n, colors = 'Reds',
         marker = list(line = l), colorbar = list(title = "Count")) %>%
   layout(title = 'US Supreme Court Judges by State of Birth (6 immigrants)', geo = g)
 
