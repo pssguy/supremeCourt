@@ -1,0 +1,117 @@
+name,yrnom,success,birdate,biryear,birthst,race,gender,nomrelig,natorig,agenom,parnom,serve,dateserb,datesere,reasdep,posit,surname,style,id,stateID
+"Jay, John",1789,"yes, nom",12/12/1745,1745,new york,white,male,episcopa,french/dutch,43,federali,nominee,10/19/1789,06/29/1795,departed to take another position,chief ju,*Jay,background: white,1,NY
+"Rutledge, John",1789,"yes, nom",09/18/1739,1739,south ca,white,male,episcopa,english/scotch,50,federali,nominee,02/15/1790,03/05/1791,departed to take another position,associat,Rutledge,background: white,2,SC
+"Cushing, William",1789,"yes, nom",03/01/1732,1732,massachu,white,male,congrega,english,57,federali,nominee,02/02/1790,09/13/1810,died in office,associat,Cushing,background: white,3,MA
+"Wilson, James",1789,"yes, nom",09/14/1742,1742,scotland,white,male,episcopa,scotch,47,federali,nominee,10/05/1789,08/21/1798,died in office,associat,Wilson,background: white,4,
+"Blair, John, Jr.",1789,"yes, nom",999. UNKNOWN,1732,virginia,white,male,episcopa,scotch/irish,57,federali,nominee,02/02/1790,01/27/1796,declining health,associat,Blair,background: white,5,VA
+"Iredell, James",1790,"yes, nom",10/05/1751,1751,england,white,male,episcopa,english/irish,38,federali,nominee,05/12/1790,10/20/1799,died in office,associat,Iredell,background: white,6,
+"Johnson, Thomas",1791,"yes, nom",11/04/1732,1732,maryland,white,male,episcopa,english,58,federali,nominee,08/06/1792,01/16/1793,declining health,associat,Johnson,background: white,7,MD
+"Paterson, William",1793,"yes, nom",12/24/1745,1745,ireland,white,male,presbyte,scotch/irish,47,federali,nominee,03/11/1793,09/09/1806,died in office,associat,Paterson,background: white,8,
+"Chase, Samuel",1796,"yes, nom",04/17/1741,1741,maryland,white,male,episcopa,english,54,federali,nominee,02/04/1796,06/19/1811,died in office,associat,Chase,background: white,9,MD
+"Ellsworth, Oliver",1796,"yes, nom",04/29/1745,1745,connecti,white,male,congrega,english,50,federali,nominee,03/08/1796,12/15/1800,declining health,chief ju,*Ellsworth,background: white,10,CT
+"Washington, Bushrod",1798,"yes, nom",06/05/1762,1762,virginia,white,male,episcopa,english,36,federali,nominee,02/04/1799,11/26/1829,died in office,associat,Washington,background: white,11,VA
+"Moore, Alfred",1799,"yes, nom",05/21/1755,1755,north ca,white,male,episcopa,english/irish,44,federali,nominee,04/21/1800,01/26/1804,declining health,associat,Moore,background: white,12,NC
+"Marshall, John",1801,"yes, nom",09/24/1755,1755,virginia,white,male,episcopa,english/welsh,45,federali,nominee,02/04/1801,07/06/1835,died in office,chief ju,*Marshall,background: white,13,VA
+"Johnson, William",1804,"yes, nom",12/27/1771,1771,south ca,white,male,presbyte,english/dutch,32,democrat,nominee,05/07/1804,08/04/1834,died in office,associat,Johnson,background: lightblue;,14,SC
+"Livingston, Henry Brockholst",1806,"yes, nom",11/25/1757,1757,new york,white,male,presbyte,scotch/dutch,49,democrat,nominee,02/02/1807,03/18/1823,died in office,associat,Livingston,background: lightblue;,15,NY
+"Todd, Thomas",1807,"yes, nom",01/23/1765,1765,virginia,white,male,presbyte,english,42,democrat,nominee,05/04/1807,02/07/1826,died in office,associat,Todd,background: lightblue;,16,VA
+"Duvall, Gabriel",1811,"yes, nom",12/06/1752,1752,maryland,white,male,episcopa,french,58,democrat,nominee,11/23/1811,01/14/1835,advanced age,associat,Duvall,background: lightblue;,17,MD
+"Story, Joseph",1811,"yes, nom",09/18/1779,1779,massachu,white,male,unitaria,english,32,democrat,nominee,02/03/1812,09/10/1845,died in office,associat,Story,background: lightblue;,18,MA
+"Thompson, Smith",1823,"yes, nom",01/17/1768,1768,new york,white,male,presbyte,english,55,democrat,nominee,02/10/1824,12/18/1843,died in office,associat,Thompson,background: lightblue;,19,NY
+"Trimble, Robert",1826,"yes, nom",11/17/1776,1776,virginia,white,male,presbyte,scotch,49,democrat,nominee,06/16/1826,08/25/1828,died in office,associat,Trimble,background: lightblue;,20,VA
+"McLean, John",1829,"yes, nom",03/11/1785,1785,new jers,white,male,methodis,scotch/irish,43,democrat,nominee,01/11/1830,04/04/1861,died in office,associat,McLean,background: lightblue;,21,NJ
+"Baldwin, Henry",1830,"yes, nom",01/14/1780,1780,connecti,white,male,episcopa,english,49,democrat,nominee,01/18/1830,04/21/1844,died in office,associat,Baldwin,background: lightblue;,22,CT
+"Wayne, James Moore",1835,"yes, nom",999. UNKNOWN,1790,georgia,white,male,episcopa,english,45,democrat,nominee,01/14/1835,07/05/1867,died in office,associat,Wayne,background: lightblue;,23,GA
+"Taney, Roger Brooke",1835,"yes, nom",03/17/1777,1777,maryland,white,male,roman ca,english,58,democrat,nominee,03/28/1836,10/12/1864,died in office,chief ju,*Taney,background: lightblue;,24,MD
+"Barbour, Philip Pendelton",1835,"yes, nom",05/25/1783,1783,virginia,white,male,episcopa,scotch,51,democrat,nominee,05/12/1836,02/25/1841,died in office,associat,Barbour,background: lightblue;,25,VA
+"Catron, John",1837,"yes, nom",999. UNKNOWN,1786,pennsylv,white,male,presbyte,german,51,democrat,nominee,05/01/1837,05/30/1865,died in office,associat,Catron,background: lightblue;,26,PA
+"McKinley, John",1837,"yes, nom",05/01/1780,1780,virginia,white,male,protesta,scotch,57,democrat,nominee,01/09/1838,07/19/1852,died in office,associat,McKinley,background: lightblue;,27,VA
+"Daniel, Peter Vivian",1841,"yes, nom",04/24/1784,1784,virginia,white,male,episcopa,english,56,democrat,nominee,01/10/1842,05/31/1860,died in office,associat,Daniel,background: lightblue;,28,VA
+"Nelson, Samuel",1845,"yes, nom",11/10/1792,1792,new york,white,male,episcopa,scotch/irish,52,democrat,nominee,02/27/1845,11/28/1872,advanced age,associat,Nelson,background: lightblue;,29,NY
+"Woodbury, Levi",1845,"yes, nom",12/22/1789,1789,new hamp,white,male,presbyte,english,56,democrat,nominee,01/03/1846,09/04/1851,died in office,associat,Woodbury,background: lightblue;,30,NH
+"Grier, Robert Cooper",1846,"yes, nom",03/05/1794,1794,pennsylv,white,male,presbyte,scotch,52,democrat,nominee,08/10/1846,01/31/1870,declining health,associat,Grier,background: lightblue;,31,PA
+"Curtis, Benjamin Robbins",1851,"yes, nom",11/04/1809,1809,massachu,white,male,episcopa,english,42,whig,nominee,999. UNCLEAR,09/30/1857,job dissatisfaction,associat,Curtis,background: lightgreen,32,MA
+"Campbell, John Archibald",1853,"yes, nom",06/24/1811,1811,georgia,white,male,episcopa,scotch/irish,41,democrat,nominee,04/11/1853,04/30/1861,departed to take another position,associat,Campbell,background: lightblue;,33,GA
+"Clifford, Nathan",1857,"yes, nom",08/18/1803,1803,new hamp,white,male,unitaria,english,54,democrat,nominee,01/21/1858,07/25/1881,died in office,associat,Clifford,background: lightblue;,34,NH
+"Swayne, Noah Haynes",1862,"yes, nom",12/07/1804,1804,virginia,white,male,quaker,english,57,republic,nominee,01/27/1862,01/24/1881,declining health,associat,Swayne,background: #f77542;,35,VA
+"Miller, Samuel Freeman",1862,"yes, nom",04/05/1816,1816,kentucky,white,male,unitaria,german,46,republic,nominee,07/21/1862,10/13/1890,died in office,associat,Miller,background: #f77542;,36,KY
+"Davis, David",1862,"yes, nom",03/09/1815,1815,maryland,white,male,presbyte,english/welsh,47,republic,nominee,12/10/1862,03/04/1877,departed to take another position,associat,Davis,background: #f77542;,37,MD
+"Field, Stephen Johnson",1863,"yes, nom",11/04/1816,1816,connecti,white,male,episcopa,english,46,democrat,nominee,05/20/1863,12/01/1897,declining health,associat,Field,background: lightblue;,38,CT
+"Chase, Salmon Portland",1864,"yes, nom",01/13/1808,1808,new hamp,white,male,episcopa,english/scotch,56,republic,nominee,12/15/1864,05/07/1873,died in office,chief ju,*Chase,background: #f77542;,39,NH
+"Strong, William",1870,"yes, nom",05/06/1808,1808,connecti,white,male,presbyte,english,61,republic,nominee,03/14/1870,12/14/1880,departed before physical or mental health could decline,associat,Strong,background: #f77542;,40,CT
+"Bradley, Joseph P.",1870,"yes, nom",03/14/1813,1813,new york,white,male,dutch re,english,57,republic,nominati,03/23/1870,01/22/1892,died in office,associat,Bradley,background: #f77542;,41,NY
+"Hunt, Ward",1872,"yes, nom",06/14/1810,1810,new york,white,male,episcopa,english,62,republic,nominee,01/09/1873,01/27/1882,declining health,associat,Hunt,background: #f77542;,42,NY
+"Waite, Morrison Remick",1874,"yes, nom",11/29/1816,1816,connecti,white,male,episcopa,english,57,republic,nominee,03/04/1874,03/23/1888,died in office,chief ju,*Waite,background: #f77542;,43,CT
+"Harlan, John Marshall (I)",1877,"yes, nom",06/01/1833,1833,kentucky,white,male,presbyte,english,44,republic,nominee,12/10/1877,1911/10/14,died in office,associat,Harlan,background: #f77542;,44,KY
+"Woods, William Burnham",1880,"yes, nom",08/03/1824,1824,ohio,white,male,protesta,english/scotch,56,republic,nominee,01/05/1881,05/14/1887,died in office,associat,Woods,background: #f77542;,45,OH
+"Matthews, Stanley",1881,"yes, nom",07/21/1824,1824,ohio,white,male,presbyte,english,56,republic,nominee,05/17/1881,03/22/1889,died in office,associat,Matthews,background: #f77542;,46,OH
+"Gray, Horace",1881,"yes, nom",03/24/1828,1828,massachu,white,male,unitaria,english,53,republic,nominee,01/09/1882,1902/09/15,died in office,associat,Gray,background: #f77542;,47,MA
+"Blatchford, Samuel",1882,"yes, nom",03/09/1820,1820,new york,white,male,episcopa,english,62,republic,nominee,04/03/1882,07/07/1893,died in office,associat,Blatchford,background: #f77542;,48,NY
+"Lamar, Lucius Quintus Cincinnatus",1887,"yes, nom",09/17/1825,1825,georgia,white,male,methodis,french,62,democrat,nominee,01/18/1888,01/23/1893,died in office,associat,Lamar,background: lightblue;,49,GA
+"Fuller, Melville Weston",1888,"yes, nom",02/11/1833,1833,maine,white,male,episcopa,english,55,democrat,nominee,10/08/1888,1910/07/04,died in office,chief ju,*Fuller,background: lightblue;,50,ME
+"Brewer, David Josiah",1889,"yes, nom",06/20/1837,1837,asia min,white,male,congrega,english,52,republic,nominee,01/06/1890,1910/03/28,died in office,associat,Brewer,background: #f77542;,51,
+"Brown, Henry Billings",1890,"yes, nom",03/02/1836,1836,massachu,white,male,congrega,english,54,republic,nominee,01/05/1891,1906/05/28,declining health,associat,Brown,background: #f77542;,52,MA
+"Shiras, George, Jr.",1892,"yes, nom",01/26/1832,1832,pennsylv,white,male,presbyte,scotch,60,republic,nominee,10/10/1892,1903/02/23,departed to spend more time with family,associat,Shiras,background: #f77542;,53,PA
+"Jackson, Howell Edmunds",1893,"yes, nom",04/08/1832,1832,tennesse,white,male,baptist,scotch,60,democrat,nominee,03/04/1893,08/08/1895,died in office,associat,Jackson,background: lightblue;,54,TN
+"White, Edward Douglass",1894,"yes, nom",11/03/1845,1845,louisian,white,male,roman ca,irish,48,democrat,nominee,03/12/1894,1910/12/18,promoted to chief justice,associat,White,background: lightblue;,55,LA
+"Peckham, Rufus Wheeler",1895,"yes, nom",11/08/1838,1838,new york,white,male,episcopa,english,57,democrat,nominee,01/06/1896,1909/10/24,died in office,associat,Peckham,background: lightblue;,56,NY
+"McKenna, Joseph",1897,"yes, nom",08/10/1843,1843,pennsylv,white,male,roman ca,irish,54,republic,nominee,01/26/1898,1925/01/05,advanced age,associat,McKenna,background: #f77542;,57,PA
+"Holmes, Oliver Wendell, Jr",1902,"yes, nom",03/08/1841,1841,massachu,white,male,unitaria,english,61,republic,nominee,1902/12/08,1932/01/12,advanced age,associat,Holmes,background: #f77542;,58,MA
+"Day, William Rufus",1903,"yes, nom",04/07/1849,1849,ohio,white,male,lutheran,english,53,republic,nominee,1903/03/02,1922/11/13,advanced age,associat,Day,background: #f77542;,59,OH
+"Moody, William Henry",1906,"yes, nom",12/23/1853,1853,massachu,white,male,episcopa,english,52,republic,nominee,1906/12/17,1910/11/20,declining health,associat,Moody,background: #f77542;,60,MA
+"Lurton, Horace Harmon",1909,"yes, nom",02/26/1844,1844,kentucky,white,male,episcopa,english,65,democrat,nominee,1910/01/03,1914/07/12,died in office,associat,Lurton,background: lightblue;,61,KY
+"Hughes, Charles Evans",1910,"yes, nom",04/11/1862,1862,new york,white,male,baptist,english,48,republic,nominee,1910/10/10,1916/06/10,departed to run for public office (unsuccessful),associat,Hughes,background: #f77542;,62,NY
+"White, Edward Douglass",1910,"yes, nom",11/03/1845,1845,louisian,white,male,roman ca,irish,65,democrat,nominee,1910/12/19,1921/05/19,died in office,chief ju,*White,background: lightblue;,63,LA
+"Van Devanter, Willis",1910,"yes, nom",04/17/1859,1859,indiana,white,male,episcopa,dutch,51,republic,nominee,1911/01/03,1937/06/02,advanced age,associat,Van Devanter,background: #f77542;,64,IN
+"Lamar, Joseph Rucker",1910,"yes, nom",10/14/1857,1857,georgia,white,male,disciple,french,53,democrat,nominee,1911/01/03,1916/01/02,died in office,associat,Lamar,background: lightblue;,65,GA
+"Pitney, Mahlon",1912,"yes, nom",02/05/1858,1858,new jers,white,male,presbyte,english,54,republic,nominee,1912/03/18,1922/12/31,declining health,associat,Pitney,background: #f77542;,66,NJ
+"McReynolds, James Clark",1914,"yes, nom",02/03/1862,1862,kentucky,white,male,disciple,scotch/irish,52,democrat,nominee,1914/10/12,1941/01/31,advanced age,associat,McReynolds,background: lightblue;,67,KY
+"Brandeis, Louis Dembitz",1916,"yes, nom",11/13/1856,1856,kentucky,white,male,jewish,german,59,republic,nominee,1916/06/05,1939/02/13,advanced age,associat,Brandeis,background: #f77542;,68,KY
+"Clarke, John Hessin",1916,"yes, nom",09/18/1857,1857,ohio,white,male,protesta,scotch/irish,58,democrat,nominee,1916/10/09,1922/09/18,departed to take another position,associat,Clarke,background: lightblue;,69,OH
+"Taft, William Howard",1921,"yes, nom",09/15/1857,1857,ohio,white,male,unitaria,english/scotch,63,republic,nominee,1921/07/11,1930/02/03,declining health,chief ju,*Taft,background: #f77542;,70,OH
+"Sutherland, George",1922,"yes, nom",03/25/1862,1862,england,white,male,episcopa,english/scotch,60,republic,nominee,1922/10/02,1938/01/17,advanced age,associat,Sutherland,background: #f77542;,71,
+"Butler, Pierce",1922,"yes, nom",03/17/1866,1866,minnesot,white,male,roman ca,irish,56,democrat,nominee,1923/01/02,1939/11/16,died in office,associat,Butler,background: lightblue;,72,MN
+"Sanford, Edward Terry",1923,"yes, nom",07/23/1865,1865,tennesse,white,male,episcopa,english/swiss,57,republic,nominee,1923/02/19,1930/03/08,died in office,associat,Sanford,background: #f77542;,73,TN
+"Stone, Harlan Fiske",1925,"yes, nom",10/11/1872,1872,new hamp,white,male,episcopa,english,52,republic,nominee,1925/03/02,1941/07/02,promoted to chief justice,associat,Stone,background: #f77542;,74,NH
+"Hughes, Charles Evans",1930,"yes, nom",04/11/1862,1862,new york,white,male,baptist,english,67,republic,nominee,1930/02/24,1941/07/01,advanced age,chief ju,*Hughes,background: #f77542;,75,NY
+"Roberts, Owen Josephus",1930,"yes, nom",05/02/1875,1875,pennsylv,white,male,episcopa,welsh/ dutch/ scotch/ irish,55,republic,nominee,1930/06/02,1945/07/31,departed to take another position,associat,Roberts,background: #f77542;,76,PA
+"Cardozo, Benjamin Nathan",1932,"yes, nom",05/24/1870,1870,new york,white,male,jewish,spanish,61,democrat,nominee,1932/03/14,1938/07/09,died in office,associat,Cardozo,background: lightblue;,77,NY
+"Black, Hugo Lafayette",1937,"yes, nom",02/27/1886,1886,alabama,white,male,baptist,scotch/irish,51,democrat,nominee,1937/08/19,1971/09/17,declining health,associat,Black,background: lightblue;,78,AL
+"Reed, Stanley Forman",1938,"yes, nom",12/31/1884,1884,kentucky,white,male,protesta,english,53,democrat,nominee,1938/01/31,1957/02/25,declining health,associat,Reed,background: lightblue;,79,KY
+"Frankfurter, Felix",1939,"yes, nom",11/15/1882,1882,austria,white,male,jewish,austrian,56,independ,nominee,1939/01/30,1962/08/28,declining health,associat,Frankfurter,background: lightgreen,80,
+"Douglas, William Orville",1939,"yes, nom",10/16/1898,1898,minnesot,white,male,presbyte,scotch,40,democrat,nominee,1939/04/17,1975/11/12,declining health,associat,Douglas,background: lightblue;,81,MN
+"Murphy, Francis (Frank) William",1940,"yes, nom",04/13/1890,1890,michigan,white,male,roman ca,irish,49,democrat,nominee,1940/02/05,1949/07/19,died in office,associat,Murphy,background: lightblue;,82,MI
+"Stone, Harlan Fiske",1941,"yes, nom",10/11/1872,1872,new hamp,white,male,episcopa,english,68,republic,nominee,1941/07/03,1946/04/22,died in office,chief ju,*Stone,background: #f77542;,83,NH
+"Byrnes, James Frances",1941,"yes, nom",05/02/1879,1879,south ca,white,male,episcopa,irish,62,democrat,nominee,1941/07/08,1942/10/03,departed to take another position,associat,Byrnes,background: lightblue;,84,SC
+"Jackson, Robert Houghwout",1941,"yes, nom",02/13/1892,1892,pennsylv,white,male,episcopa,scotch,49,democrat,nominee,1941/07/11,1954/10/09,died in office,associat,Jackson,background: lightblue;,85,PA
+"Rutledge, Wiley Blount",1943,"yes, nom",07/20/1894,1894,kentucky,white,male,unitaria,english,48,democrat,nominee,1943/02/15,1949/09/10,died in office,associat,Rutledge,background: lightblue;,86,KY
+"Burton, Harold Hitz",1945,"yes, nom",06/22/1888,1888,massachu,white,male,unitaria,english/swiss,57,republic,nominee,1945/10/01,1958/10/13,declining health,associat,Burton,background: #f77542;,87,MA
+"Vinson, Fred Moore",1946,"yes, nom",01/22/1890,1890,kentucky,white,male,methodis,english,56,democrat,nominee,1946/06/24,1953/09/08,died in office,chief ju,*Vinson,background: lightblue;,88,KY
+"Clark, Tom Campbell",1949,"yes, nom",09/23/1899,1899,texas,white,male,presbyte,scotch,49,democrat,nominee,1949/08/24,1967/06/12,departure due to potential conflict of interest,associat,Clark,background: lightblue;,89,TX
+"Minton, Sherman",1949,"yes, nom",10/20/1890,1890,indiana,white,male,protesta,english,58,democrat,nominee,1949/10/12,1956/10/15,declining health,associat,Minton,background: lightblue;,90,IN
+"Warren, Earl",1954,"yes, nom",03/19/1891,1891,californ,white,male,protesta,scandinavian,62,republic,nominee,1954/03/02,1969/06/23,advanced age,chief ju,*Warren,background: #f77542;,91,CA
+"Harlan, John Marshall (II)",1955,"yes, nom",05/20/1899,1899,illinois,white,male,presbyte,english,55,republic,nominee,1955/03/28,1971/09/23,declining health,associat,Harlan,background: #f77542;,92,IL
+"Brennan, William Joseph, Jr.",1957,"yes, nom",1906/04/25,1906,new jers,white,male,roman ca,irish,50,democrat,nominee,1957/03/22,1990/07/20,advanced age,associat,Brennan,background: lightblue;,93,NJ
+"Whittaker, Charles Evans",1957,"yes, nom",1901/02/22,1901,kansas,white,male,methodis,english,56,republic,nominee,1957/03/25,1962/03/31,declining health,associat,Whittaker,background: #f77542;,94,KS
+"Stewart, Potter",1959,"yes, nom",1915/01/23,1915,michigan,white,male,episcopa,english,43,republic,nominee,1959/05/15,1981/07/03,departed to spend more time with family,associat,Stewart,background: #f77542;,95,MI
+"White, Byron Raymond",1962,"yes, nom",1917/06/08,1917,colorado,white,male,episcopa,english,44,democrat,nominee,1962/04/16,1993/06/28,departed to spend more time with family,associat,White,background: lightblue;,96,CO
+"Goldberg, Arthur Joseph",1962,"yes, nom",1908/08/08,1908,illinois,white,male,jewish,russian,54,democrat,nominee,1962/10/01,1965/07/25,departed to take another position,associat,Goldberg,background: lightblue;,97,IL
+"Fortas, Abe",1965,"yes, nom",1910/06/19,1910,tennesse,white,male,jewish,english,55,democrat,nominee,1965/10/04,1969/05/14,departed under criticism of unethical behavior,associat,Fortas,background: lightblue;,98,TN
+"Marshall, Thurgood",1967,"yes, nom",1908/07/02,1908,maryland,black,male,episcopa,african,58,democrat,nominee,1967/10/02,1991/10/01,advanced age,associat,Marshall,background: lightblue;,99,MD
+"Burger, Warren Earl",1969,"yes, nom",1909/09/17,1909,minnesot,white,male,presbyte,swiss/ german,61,republic,nominee,1969/06/23,1986/09/26,advanced age,chief ju,*Burger,background: #f77542;,100,MN
+"Blackmun, Harry Andrew",1970,"yes, nom",1908/11/12,1908,illinois,white,male,methodis,english/german,61,republic,nominee,1970/06/09,1994/08/03,advanced age,associat,Blackmun,background: #f77542;,101,IL
+"Powell, Lewis Franklin, Jr.",1971,"yes, nom",1907/09/19,1907,virginia,white,male,presbyte,english/welsh,64,democrat,nominee,1972/01/07,1987/06/26,advanced age,associat,Powell,background: lightblue;,102,VA
+"Rehnquist, William Hubbs",1971,"yes, nom",1924/10/01,1924,wisconsi,white,male,lutheran,scandinavian,47,republic,nominee,1972/01/07,1986/09/26,promoted to chief justice,associat,Rehnquist,background: #f77542;,103,WI
+"Stevens, John Paul",1975,"yes, nom",1920/04/20,1920,illinois,white,male,protesta,english,55,republic,nominee,1975/12/19,2010/06/30,advanced age,associat,Stevens,background: #f77542;,104,IL
+"O'Connor, Sandra Day",1981,"yes, nom",1930/03/26,1930,texas,white,female,episcopa,english,51,republic,nominee,1981/09/25,2006/01/31,advanced age,associat,O'Connor,background: #f77542;,105,TX
+"Rehnquist, William Hubbs",1986,"yes, nom",1924/10/01,1924,wisconsi,white,male,lutheran,scandinavian,61,republic,nominee,1986/09/26,2005/09/03,died in office,chief ju,*Rehnquist,background: #f77542;,106,WI
+"Scalia, Antonin",1986,"yes, nom",1936/03/11,1936,new jers,white,male,roman ca,italian,50,republic,nominee,1986/09/26,2016/02/13,died in office,associat,Scalia,background: #f77542;,107,NJ
+"Kennedy, Anthony McLeod",1987,"yes, nom",1936/07/23,1936,californ,white,male,roman ca,irish,51,republic,nominee,1988/02/18,2016/07/25,justice still on court,associat,Kennedy,background: #f77542;,108,CA
+"Souter, David H.",1990,"yes, nom",1939/09/17,1939,massachu,white,male,episcopa,english,50,republic,nominee,1990/10/09,2009/06/30,departed before physical or mental health could decline,associat,Souter,background: #f77542;,109,MA
+"Thomas, Clarence",1991,"yes, nom",1948/06/23,1948,georgia,black,male,roman ca,african,43,republic,nominee,1991/10/23,2016/07/25,justice still on court,associat,Thomas,background: #f77542;,110,GA
+"Ginsburg, Ruth Bader",1993,"yes, nom",1933/03/15,1933,new york,white,female,jewish,german,60,democrat,nominee,1993/08/10,2016/07/25,justice still on court,associat,Ginsburg,background: lightblue;,111,NY
+"Breyer, Stephen G.",1994,"yes, nom",1938/08/15,1938,californ,white,male,jewish,german/romanian/prussian/polish,55,democrat,nominee,1994/08/03,2016/07/25,justice still on court,associat,Breyer,background: lightblue;,112,CA
+"Roberts, John G., Jr.",2005,"yes, nom",1955/01/27,1955,new york,white,male,roman ca,english/czech,50,republic,nominee,2005/09/29,2016/07/25,justice still on court,chief ju,*Roberts,background: #f77542;,113,NY
+"Alito, Samuel A., Jr.",2005,"yes, nom",1950/04/01,1950,new jers,white,male,roman ca,italian,55,republic,nominee,2006/01/31,2016/07/25,justice still on court,associat,Alito,background: #f77542;,114,NJ
+"Sotomayor, Sonia Maria",2009,"yes, nom",1954/06/25,1954,new york,Hispanic origin,female,roman ca,Puerto Rican,54,democrat,nominee,2009/09/09,2016/07/25,justice still on court,associat,Sotomayor,background: lightblue;,115,NY
+"Kagan, Elena",2010,"yes, nom",1960/04/08,1960,new york,white,female,jewish,russian,50,democrat,nominee,2010/08/07,2016/07/25,justice still on court,associat,Kagan,background: lightblue;,116,NY

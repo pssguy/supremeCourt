@@ -12,80 +12,17 @@ library(flexdashboard)
 library(timevis)
 library(plotly)
 library(readxl)
-library(dplyr)
 library(stringr)
-
-## initial data had varying date formats which were corrected in excel
-justices <- read_excel("data/justicesdataAdapted.xlsx")
-
-df <- justices %>% 
-  select(name,yrnom,success,birdate,biryear,birthst,race,gender,nomrelig,natorig,agenom,parnom,serve,dateserb,datesere,reasdep,posit) %>% 
-  filter(str_sub(success,1,3)=="yes")
-
-for(i in 1:nrow(df)) {
-  df$surname[i] <- str_split(df$name,",")[[i]][1]
-}
-# add supreme
-
-df <-df %>% 
-  mutate(surname=ifelse(posit=="chief ju",paste0("*",surname),surname))
-
-## account for current serve
-df[df$datesere=="999. JUSTICE STILL ON COURT",]$datesere <- "2016/07/25"
+library(readr)
+library(dplyr)
 
 
 
-df$style <- "background: lightblue;"
-df[df$parnom=="republic",]$style <- "background: #f77542;"
-df[df$parnom=="federali",]$style <- "background: white"
-df[df$parnom=="whig",]$style <- "background: lightgreen"
-df[df$parnom=="independ",]$style <- "background: lightgreen"
 
-df <- df %>% 
-  mutate(id=row_number())
+## import pre-processed info
 
-
-df$stateID <-""
-df[df$birthst=="alabama",]$stateID <- "AL"
-df[df$birthst=="californ",]$stateID <- "CA"
-df[df$birthst=="colorado",]$stateID <- "CO"
-df[df$birthst=="connecti",]$stateID <- "CT"
-df[df$birthst=="georgia",]$stateID <- "GA"
-df[df$birthst=="illinois",]$stateID <- "IL"
-df[df$birthst=="indiana",]$stateID <- "IN"
-df[df$birthst=="kansas",]$stateID <- "KS"
-df[df$birthst=="kentucky",]$stateID <- "KY"
-df[df$birthst=="louisian",]$stateID <- "LA"
-df[df$birthst=="maine",]$stateID <- "ME"
-df[df$birthst=="maryland",]$stateID <- "MD"
-
-df[df$birthst=="massachu",]$stateID <- "MA"
-df[df$birthst=="michigan",]$stateID <- "MI"
-df[df$birthst=="minnesot",]$stateID <- "MN"
-df[df$birthst=="new hamp",]$stateID <- "NH"
-df[df$birthst=="new jers",]$stateID <- "NJ"
-df[df$birthst=="new york",]$stateID <- "NY"
-df[df$birthst=="north ca",]$stateID <- "NC"
-df[df$birthst=="ohio",]$stateID <- "OH"
-df[df$birthst=="pennsylv",]$stateID <- "PA"
-df[df$birthst=="south ca",]$stateID <- "SC"
-df[df$birthst=="tennesse",]$stateID <- "TN"
-df[df$birthst=="texas",]$stateID <- "TX" 
-df[df$birthst=="virginia",]$stateID <- "VA"
-df[df$birthst=="wisconsi",]$stateID <- "WI" 
-
-
-
-states <- data.frame(stateID=state.abb)
-
-byState <- df %>% 
-  group_by(stateID) %>% 
-  tally() %>% 
-  right_join(states) %>% 
-  mutate(n=ifelse(is.na(n),0,n))
-
-
-
+df <- read_csv("data/timelineData.csv")
+byState <- read_csv("data/mapData.csv")
  
 
 
@@ -116,7 +53,7 @@ Row {.tabset .tabset-fade}
 -----------------------------------------------------------------------
 
 
-### Timeline - Zoom and Pan as required. Hover boxes for full name
+### Timeline * indicates Chief Justice Color represents political affiliation - Zoom and Pan as required. Hover boxes for full name
 
 ```{r timeline}
  # df %>% 
@@ -152,6 +89,17 @@ plot_ly(byState, z = n, locations = stateID, type = 'choropleth',
         locationmode = 'USA-states', color = n, colors = 'Reds',
         marker = list(line = l), colorbar = list(title = "Count")) %>%
   layout(title = 'US Supreme Court Judges by State of Birth (6 immigrants)', geo = g)
+
+
+```
+
+### Data used in analysis. Original database includes many more variables
+
+
+```{r data}
+
+df %>%
+ DT::datatable(class='compact stripe hover row-border order-column',rownames=FALSE,options= list(paging = TRUE, searching = FALSE,info=FALSE))
 
 
 ```
