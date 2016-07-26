@@ -41,6 +41,56 @@ df[df$parnom=="federali",]$style <- "background: white"
 df[df$parnom=="whig",]$style <- "background: lightgreen"
 df[df$parnom=="independ",]$style <- "background: lightgreen"
 
+df <- df %>% 
+  mutate(id=row_number())
+
+
+df$stateID <-""
+df[df$birthst=="alabama",]$stateID <- "AL"
+df[df$birthst=="californ",]$stateID <- "CA"
+df[df$birthst=="colorado",]$stateID <- "CO"
+df[df$birthst=="connecti",]$stateID <- "CT"
+df[df$birthst=="georgia",]$stateID <- "GA"
+df[df$birthst=="illinois",]$stateID <- "IL"
+df[df$birthst=="indiana",]$stateID <- "IN"
+df[df$birthst=="kansas",]$stateID <- "KS"
+df[df$birthst=="kentucky",]$stateID <- "KY"
+df[df$birthst=="louisian",]$stateID <- "LA"
+df[df$birthst=="maine",]$stateID <- "ME"
+df[df$birthst=="maryland",]$stateID <- "MD"
+
+df[df$birthst=="massachu",]$stateID <- "MA"
+df[df$birthst=="michigan",]$stateID <- "MI"
+df[df$birthst=="minnesot",]$stateID <- "MN"
+df[df$birthst=="new hamp",]$stateID <- "NH"
+df[df$birthst=="new jers",]$stateID <- "NJ"
+df[df$birthst=="new york",]$stateID <- "NY"
+df[df$birthst=="north ca",]$stateID <- "NC"
+df[df$birthst=="ohio",]$stateID <- "OH"
+df[df$birthst=="pennsylv",]$stateID <- "PA"
+df[df$birthst=="south ca",]$stateID <- "SC"
+df[df$birthst=="tennesse",]$stateID <- "TN"
+df[df$birthst=="texas",]$stateID <- "TX" 
+df[df$birthst=="virginia",]$stateID <- "VA"
+df[df$birthst=="wisconsi",]$stateID <- "WI" 
+
+
+
+byState <- df %>% 
+  group_by(stateID) %>% 
+  tally()
+
+
+l <- list(color = toRGB("white"), width = 2)
+# specify some map projection/options
+g <- list(
+  scope = 'usa',
+  projection = list(type = 'albers usa'),
+  showlakes = TRUE,
+  lakecolor = toRGB('white')
+)
+
+
 ```
 
 Background {.sidebar data-width=355}
@@ -54,15 +104,46 @@ includeMarkdown("info.md")
 ```
 
 
-Row {data-width=650}
+Row {.tabset .tabset-fade}
 -----------------------------------------------------------------------
 
 
 ### Timeline - Zoom and Pan as required. Hover boxes for full name
 
 ```{r timeline}
- df %>% 
-    select(content=surname,start=dateserb,end=datesere,title=name,style=style) %>% 
-    timevis() 
+ # df %>% 
+ #    select(content=surname,start=dateserb,end=datesere,title=name,style=style) %>% 
+ #    timevis()
+
+output$timeline <- renderTimevis({
+  
+ df %>%
+    select(content=surname,start=dateserb,end=datesere,title=name,style=style,id = id) %>% 
+   timevis() #%>% 
+   # addCustomTime("1969/06/23",100)
+  
+})
+
+
+# observe({
+#     centerTime("timeline", "1950-01-23")
+#   })
+# 
+#  addCustomTime("timelineInteractive", "2016-01-17", randomID())
+
+ timevisOutput("timeline")
+
 ```
 
+### Map
+
+
+```{r map}
+
+plot_ly(byState, z = n, locations = stateID, type = 'choropleth',
+        locationmode = 'USA-states', color = n, colors = 'Purples',
+        marker = list(line = l), colorbar = list(title = "Count")) %>%
+  layout(title = 'US Supreme Court Judges by State of Birth (6 immigrants)', geo = g)
+
+
+```
