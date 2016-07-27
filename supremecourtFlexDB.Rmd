@@ -1,9 +1,12 @@
 ---
 title: "US Supreme Court Judges"
 output: 
+ 
   flexdashboard::flex_dashboard:
     orientation: rows
     vertical_layout: fill
+    css: custom.css
+    
 runtime: shiny    
 ---
 

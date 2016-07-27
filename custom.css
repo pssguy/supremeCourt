@@ -1,0 +1,5 @@
+.nav-tabs-custom > .nav-tabs > li.active > a, .nav-tabs-custom > .nav-tabs > li.active:hover > a {
+    
+    color: #666;
+    background-color: #e6ebec;
+}
