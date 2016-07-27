@@ -6,8 +6,8 @@ output:
     orientation: rows
     vertical_layout: fill
     css: custom.css
-    
-runtime: shiny    
+# runtime: shiny   
+#   
 ---
 
 ```{r setup, include=FALSE}
@@ -26,6 +26,9 @@ library(dplyr)
 
 df <- read_csv("data/timelineData.csv")
 byState <- read_csv("data/mapData.csv")
+
+byState <- byState  %>% 
+  mutate(id=row_number())
  
 
 
@@ -44,12 +47,13 @@ g <- list(
 Background {.sidebar data-width=355}
 -------------------------------------
 
-```{r info}
+The Supreme Court of the United States is the highest judicial body in the United States.
 
-includeMarkdown("info.md")
+Professor Lee Epstein and colleagues have created a database of all the nominees of which I have used part to produce a chart based on Dean Attali's [timevis R package](https://github.com/daattali/timevis)   
+
+ <cite>Epstein, Lee, Thomas G. Walker, Nancy Staudt, Scott Hendrickson, and Jason Roberts. (2013). "The U.S. Supreme Court Justices Database." March 2. At: http://epstein.wustl.edu/research/justicesdata.html.</cite>
 
 
-```
 
 
 Row {.tabset .tabset-fade}
@@ -59,27 +63,10 @@ Row {.tabset .tabset-fade}
 ### Timeline * indicates Chief Justice Color represents political affiliation - Zoom and Pan as required. Hover boxes for full name
 
 ```{r timeline}
- # df %>% 
- #    select(content=surname,start=dateserb,end=datesere,title=name,style=style) %>% 
- #    timevis()
-
-output$timeline <- renderTimevis({
-  
  df %>%
-    select(content=surname,start=dateserb,end=datesere,title=name,style=style,id = id) %>% 
-   timevis() #%>% 
-   # addCustomTime("1969/06/23",100)
-  
-})
+    select(content=surname,start=dateserb,end=datesere,title=name,style=style,id=id) %>%
+    timevis()
 
-
-# observe({
-#     centerTime("timeline", "1950-01-23")
-#   })
-# 
-#  addCustomTime("timelineInteractive", "2016-01-17", randomID())
-
- timevisOutput("timeline")
 
 ```
 
