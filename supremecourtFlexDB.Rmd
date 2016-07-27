@@ -93,13 +93,26 @@ plot_ly(byState, z = n, locations = stateID, type = 'choropleth',
 
 ```
 
-### Data used in analysis. Original database includes many more variables
+### Downloadable Data used in analysis. Original database includes many more variables
 
 
 ```{r data}
 
 df %>%
- DT::datatable(class='compact stripe hover row-border order-column',rownames=FALSE,options= list(paging = TRUE, searching = FALSE,info=FALSE))
+  DT::datatable(
+  class = 'compact stripe hover row-border order-column',
+  rownames = FALSE,
+   extensions = 'Buttons',
+  options = list(
+  paging = TRUE,
+  searching = FALSE,
+  info = FALSE,
+ 
+  dom = 'Bfrtip',
+  buttons = c('copy', 'csv', 'excel', 'pdf', 'print')
+  )
+  )
 
 
 ```
+
